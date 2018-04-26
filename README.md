@@ -1,5 +1,10 @@
 # map.apps Remote Project Blueprint
 
+# React Bundle Development
+
+1. change the map.apps remote base in __pom.xml__ and __build.properties__
+1. follow the instructions in the ``bundles/rc_enhancer/README.md`` file.
+
 Development Guide
 ------------------
 ### Pre Conditions

@@ -1,0 +1,16 @@
+{
+  "name": "rc_enhancer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://energie360-geoimpact:Bahnhof*10*Platz@bitbucket.org/mapapps4team/bundle-rc_enhancer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/mapapps4team/bundle-rc_enhancer#readme"
+}

@@ -13,19 +13,12 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-define([
-    "dojo/_base/declare"
-], function(declare) {
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
 
-    return declare([], {
-        activate: function() {
-            this.msg = this._properties.message;
-        },
-        print: function() {
-            alert(this.getMessage());
-        },
-        getMessage: function() {
-            return this.msg;
-        }
-    });
+it('renders without crashing', () => {
+  const div = document.createElement('div');
+  ReactDOM.render(<App />, div);
+  ReactDOM.unmountComponentAtNode(div);
 });

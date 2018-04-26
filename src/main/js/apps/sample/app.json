@@ -19,7 +19,8 @@
       "toolrules@3.x",
       "basemaptoggler@3.x",
       "banner@3.x",
-      "sample_helloworld"
+      "sample_helloworld",
+      "rc_enhancer"
     ],
     "skipBundles": [],
     "require": [

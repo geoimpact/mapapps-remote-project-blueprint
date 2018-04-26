@@ -13,19 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-define([
-    "dojo/_base/declare"
-], function(declare) {
+'use strict';
 
-    return declare([], {
-        activate: function() {
-            this.msg = this._properties.message;
-        },
-        print: function() {
-            alert(this.getMessage());
-        },
-        getMessage: function() {
-            return this.msg;
-        }
-    });
-});
+const path = require('path');
+
+// This is a custom Jest transformer turning file imports into filenames.
+// http://facebook.github.io/jest/docs/en/webpack.html
+
+module.exports = {
+  process(src, filename) {
+    return `module.exports = ${JSON.stringify(path.basename(filename))};`;
+  },
+};

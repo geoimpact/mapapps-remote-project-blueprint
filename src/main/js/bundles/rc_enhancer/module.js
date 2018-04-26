@@ -13,19 +13,15 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-define([
-    "dojo/_base/declare"
-], function(declare) {
+/**
+ * This file is to ensure that all required files are loaded.
+ *
+ * List all files that are instantiated via the manifest.json file
+ * Also add the default module root "."
+ */
 
-    return declare([], {
-        activate: function() {
-            this.msg = this._properties.message;
-        },
-        print: function() {
-            alert(this.getMessage());
-        },
-        getMessage: function() {
-            return this.msg;
-        }
-    });
-});
+define([
+    ".",
+    "./main",
+    "./RCEnhancerActivator"
+], {});

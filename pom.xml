@@ -225,6 +225,11 @@
         <resources>
             <resource>
                 <directory>src/main/js</directory>
+                <!-- custom resources exclude -->
+                <excludes>
+                    <exclude>**/node_modules/**</exclude>
+                    <exclude>**/service-worker.js</exclude>
+                </excludes>
                 <targetPath>${js.build.outputPath}</targetPath>
                 <filtering>false</filtering>
             </resource>
@@ -294,7 +299,7 @@
                     <!-- add here properties which are used in plugin configuration resolution -->
                     <properties>
                         <!-- deployment of map.apps installation -->
-                        <mapapps.remote.base/>
+                        <mapapps.remote.base>http://localhost:8082/mapapps</mapapps.remote.base>
                     </properties>
                 </configuration>
             </plugin>
@@ -803,6 +808,10 @@
                                         <excludes>
                                             <exclude>apps/**</exclude>
                                             <exclude>**/tests/**</exclude>
+                                            <!-- custom resource exclude -->
+                                            <exclude>**/node_modules/**</exclude>
+                                            <exclude>**/react-app/**</exclude>
+                                            <exclude>**/service-worker.js</exclude>
                                         </excludes>
                                     </jsFiles>
                                 </configuration>

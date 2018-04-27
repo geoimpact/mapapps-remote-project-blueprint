@@ -2,9 +2,10 @@
 
 1. ``cd ./react-app`` and `npm install`
 
-#Run Developer
+#Run Developer Mode
 
 1. ``cd ./react-app`` and `npm start`
+1. ``mvn jetty:run``
 
 # Build production bundle
 

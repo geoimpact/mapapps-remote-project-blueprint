@@ -1,7 +1,7 @@
 {
-    "Bundle-SymbolicName": "rc_enhancer",
-    "Bundle-Version": "1.0.8",
-    "Bundle-Name": "Result Center Enhancer",
+    "Bundle-SymbolicName": "react_bundle",
+    "Bundle-Version": "1.0.0",
+    "Bundle-Name": "RReact Bundle",
     "Bundle-Description": "",
     "Bundle-Vendor": "geoimpact AG",
     "Bundle-RequiredExecutionEnvironment": [],

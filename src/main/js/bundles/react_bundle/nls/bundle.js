@@ -15,8 +15,8 @@
  */
 define({
     root: ({
-        bundleName: "rc_enhancer",
-        bundleVersion: "1.0.8"
+        bundleName: "react_bundle",
+        bundleVersion: "1.0.0"
     }),
     "de": true
 });

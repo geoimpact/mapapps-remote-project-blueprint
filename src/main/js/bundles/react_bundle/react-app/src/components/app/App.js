@@ -28,6 +28,9 @@ const logger = new (winston.Logger)({
 class App extends Component {
     constructor(props) {
         super(props);
+        this.state = {
+            isDisplayed: true
+        };
         console.debug(`${this.constructor.name} constructor`, {
             window: window,
             react: window.react
@@ -41,11 +44,18 @@ class App extends Component {
 
     render() {
         return (
-            <div className="App" onClick={() => {
-                window.alert("Hello Conterra!");
-            }}>
-                <h1>Hello world!</h1>
-            </div>
+            this.state.isDisplayed ?
+                (
+                    <div className="App" onClick={() => {
+                        this.setState((p) => {
+                            return {isDisplayed: false}
+                        })
+                    }}>
+                        <h1>Hello Conterra! Click me and i will close myself.</h1>
+                    </div>
+                )
+             :
+                null
         );
     }
 }

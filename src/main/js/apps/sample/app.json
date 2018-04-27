@@ -20,7 +20,7 @@
       "basemaptoggler@3.x",
       "banner@3.x",
       "sample_helloworld",
-      "rc_enhancer"
+      "react_bundle"
     ],
     "skipBundles": [],
     "require": [

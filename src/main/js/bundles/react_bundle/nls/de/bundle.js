@@ -14,5 +14,5 @@
  * limitations under the License.
  */
 define(({
-    bundleName: "rc_enhancer"
+    bundleName: "react_bundle"
 }));

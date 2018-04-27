@@ -13,9 +13,9 @@
             "impl": "./RCEnhancerActivator",
             "propertiesConstructor": true,
             "properties": {
-                "bundleVersion" :"${bundleVersion}",
+                "bundleVersion" :"1.0.0",
                 "config" : {
-                    "bundleName": "${bundleName}",
+                    "bundleName": "react_bundle",
                     "developmentURL": "http://localhost:9090",
                     "productionBundleServer": "http://localhost:5000",
                     "developmentBundleServer": "http://localhost:3000"

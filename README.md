@@ -5,6 +5,11 @@
 1. change the map.apps remote base in __pom.xml__ and __build.properties__
 1. follow the instructions in the ``bundles/rc_enhancer/README.md`` file.
 
+## Suggestions
+
+1. use nightmarejs to run e2e tests
+1. use jspanel4 as alternative to the dojo windows
+
 Development Guide
 ------------------
 ### Pre Conditions

@@ -28,11 +28,11 @@ const env = process.env.NODE_ENV;
 
 if(env === 'production'){
     console.debug("Initializing React Application", {config: window.react});
-    const reactPortalDomNodeID = window.react["rc_enhancer"].config.bundleName;
+    const reactPortalDomNodeID = window.react["react_bundle"].config.bundleName;
     ReactDOM.render(<App />, document.getElementById(reactPortalDomNodeID));
 } else if (env === "development"){
     console.debug("Initializing React Application", {config: window.react, env});
-    const reactPortalDomNodeID = "rc_enhancer";
+    const reactPortalDomNodeID = "react_bundle";
     ReactDOM.render(<App />, document.getElementById(reactPortalDomNodeID));
 }
 // registerServiceWorker();

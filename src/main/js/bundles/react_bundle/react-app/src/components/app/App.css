@@ -20,7 +20,7 @@
   left: 0;
   width: 100%;
   z-index: 1;
-  background-color: #0000004a;
+  background-color: rgba(0, 0, 0, 0.66);
 }
 
 #react_bundle .App-logo {

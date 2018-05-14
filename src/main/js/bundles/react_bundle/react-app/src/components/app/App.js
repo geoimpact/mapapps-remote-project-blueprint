@@ -51,7 +51,9 @@ class App extends Component {
                             return {isDisplayed: false}
                         })
                     }}>
-                        <h1>Hello Conterra! Click me and i will close myself.</h1>
+                        <h1>Hello World!</h1>
+                        <h2>This bundle aims to provide a boilerplate to develop map.apps bundles with react.</h2>
+                        <h2>This banner will hide itself on click.</h2>
                     </div>
                 )
              :

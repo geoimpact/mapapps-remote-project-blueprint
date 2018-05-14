@@ -1,4 +1,6 @@
-# map.apps Remote Project Blueprint
+# map.apps Remote Project Blueprint - React Bundle
+
+![Alt text](github/res/success_story_oss_geoimpact_mapapps.jpeg "Title")
 
 # React Bundle Development
 
